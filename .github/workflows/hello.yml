@@ -5,4 +5,5 @@ jobs:
   hello:
     runs-on: self-hosted
     steps:
+      - run: sleep 5
       - run: echo "Hello"
