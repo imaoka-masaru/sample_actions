@@ -5,5 +5,5 @@ jobs:
   hello:
     runs-on: ubuntu-latest
     steps:
-      - run: sleep 5
+      - run: sleep 6
       - run: echo "Hello"
