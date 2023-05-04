@@ -1,9 +1,11 @@
 name: Hello
-on: push
+on: 
+  - push
+  - pull_request
 
 jobs:
   hello:
     runs-on: ubuntu-latest
     steps:
-      - run: sleep 5
+      - run: sleep 6
       - run: echo "Hello"
